@@ -30,7 +30,7 @@ export class UsersController {
   getUsers() {
     return this.usersService.getsUsers();
   }
-
+// comment remove radas
   // users/:id
   @Get(':id')
   async getUserById(@Param('id') id: string) {
